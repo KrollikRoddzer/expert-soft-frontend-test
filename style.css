@@ -26,7 +26,6 @@ body
 .product_container__item
 {
     position: relative;
-    border: 1px solid black;
     padding: 20px;
     margin: 20px;
 }
@@ -37,12 +36,41 @@ body
     width: 250px;
     height: 250px;
 
-    background-image: url("assets/imgs/missDior2.jpg");
     background-size: 250px 250px;
 
     margin-bottom: 20px;
     box-shadow: 0 4px 4px 0 #00000040;
 
+}
+
+.miss-dior-1
+{
+    background-image: url("assets/imgs/missDior2.jpg");
+}
+
+.miss-dior-1:hover
+{
+    background-image: url("assets/imgs/missDior1.jpg");
+}
+
+.miss-dior-2
+{
+    background-image: url("assets/imgs/missDior3.jpg");
+}
+
+.miss-dior-2:hover
+{
+    background-image: url("assets/imgs/missDior4.jpg");
+}
+
+.lhome
+{
+    background-image: url("assets/imgs/L-HOME-IDEAL1.jpg");
+}
+
+.lhome:hover
+{
+    background-image: url("assets/imgs/L-HOME_IDEAL2.jpg");
 }
 
 .product_container__item
@@ -75,7 +103,6 @@ body
 .product_container__item figure:hover
 {
     position: relative;
-    background-image: url("assets/imgs/missDior1.jpg");
     transition: 0.5s;
 }
 
